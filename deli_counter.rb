@@ -40,7 +40,7 @@ def line(currentLine)
       for i in 0..currentLine.length - 1
         lineArray.push("#{i+1}. #{currentLine[i]}")
       end
-      print "#{lineString} #{lineArray}"
+      print "#{lineString} #{lineArray.join(",")}"
 
     end
   end
