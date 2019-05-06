@@ -39,7 +39,7 @@ def line(currentLine)
       for i in 0..currentLine.length - 1
         lineString += (" #{i+1}. #{currentLine[i]}")
       end
-      print "#{lineString}"
+      puts "#{lineString}"
 
     end
   end
