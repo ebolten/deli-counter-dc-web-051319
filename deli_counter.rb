@@ -1,8 +1,5 @@
 # Write your code here.
-i = 1
-j = 0
 
-#adding the person's name to the line
 def take_a_number(lineArray,name)
 
     lineArray.push(name);
@@ -47,4 +44,3 @@ def line(currentLine)
 
     end
   end
-# Write your code here.
