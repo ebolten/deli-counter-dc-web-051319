@@ -34,13 +34,12 @@ def line(currentLine)
     end
 
     lineString = "This line is currently: "
-    lineArray = []
 
     if currentLine.length > 0
       for i in 0..currentLine.length - 1
         lineString += (" #{i+1}. #{currentLine[i]}")
       end
-      print "#{lineString} #{lineArray}"
+      print "#{lineString}"
 
     end
   end
