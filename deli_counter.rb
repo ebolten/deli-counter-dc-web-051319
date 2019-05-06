@@ -38,7 +38,7 @@ def line(currentLine)
 
     if currentLine.length > 0
       for i in 0..currentLine.length - 1
-        lineArray.push("#{i+1}. #{currentLine[i]}")
+        lineString += (" #{i+1}. #{currentLine[i]}")
       end
       print "#{lineString} #{lineArray}"
 
