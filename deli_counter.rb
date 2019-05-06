@@ -1,13 +1,18 @@
-# Write your code here
+# Write your code here.
+i = 1
+j = 0
 
+#adding the person's name to the line
 def take_a_number(lineArray,name)
-
+    
     lineArray.push(name);
-    sum = lineArray.length
-    puts "Welcome, #{name}. You are number #{sum} in line."
 
-    return lineArray
+    sum = lineArray.length
+
+    puts "Welcome #{name}. You are number #{sum}."
+
   end
+
 
 def now_serving(currentLine)
 
@@ -36,9 +41,10 @@ def line(currentLine)
 
     if currentLine.length > 0
       for i in 0..currentLine.length - 1
-        lineArray.push("#{i + 1}. #{currentLine[i]}")
+        lineArray.push("#{i+1}. #{currentLine[i]}")
       end
-      print "#{lineString} #{lineArray} "
-      return currentLine
+      print "#{lineString} #{lineArray}"
+    
     end
   end
+# Write your code here.
