@@ -6,7 +6,7 @@ def take_a_number(lineArray,name)
 
     sum = lineArray.length
 
-    puts "Welcome #{name}. You are number #{sum}."
+    puts "Welcome, #{name}. You are number #{sum}."
 
   end
 
