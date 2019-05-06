@@ -4,7 +4,7 @@ j = 0
 
 #adding the person's name to the line
 def take_a_number(lineArray,name)
-    
+
     lineArray.push(name);
 
     sum = lineArray.length
@@ -44,7 +44,7 @@ def line(currentLine)
         lineArray.push("#{i+1}. #{currentLine[i]}")
       end
       print "#{lineString} #{lineArray}"
-    
+
     end
   end
 # Write your code here.
