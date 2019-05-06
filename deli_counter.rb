@@ -33,7 +33,7 @@ def line(currentLine)
       puts "The line is currently empty."
     end
 
-    lineString = "The line is currently: "
+    lineString = "The line is currently:"
 
     if currentLine.length > 0
       for i in 0..currentLine.length - 1
